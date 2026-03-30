@@ -1,3 +1,6 @@
+![Dashboard Preview]
+(Dashboard_Preview. png)
+
 # Patients_Outcome_Analysis
 
 ## Overview
