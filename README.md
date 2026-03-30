@@ -7,9 +7,7 @@ The objective of this analysis was to:
 - Understand patient outcomes and treatment trends  
 - Identify cost drivers and operational inefficiencies  
 - Evaluate department and hospital branch performance  
-- Provide a scalable, interactive Business Intelligence solution**  
-
-Although this dataset is healthcare-focused, the analytical approach applies to any industry with transactional data, including finance, retail, logistics, and SaaS operations.
+- Provide a scalable, interactive Business Intelligence solution
 
 ---
 
@@ -19,8 +17,6 @@ Using Power Query, the dataset was prepared for analysis:
 - Standardized categorical values (e.g., department names: Cardiology, Neurology, etc.)  
 - Corrected data types (dates, currency, text)  
 - Validated key fields like PatientID, Treatment Cost, Outcome, Payment Type, and Visit Date 
-
-This step ensured accurate aggregations and reliable insights.
 
 ---
 
@@ -46,8 +42,6 @@ Dynamic business metrics were created using DAX:
 - Total Treatment Cost: `SUM(TreatmentCost)`  
 - Average Treatment Cost: `AVERAGE(TreatmentCost)`  
 - Recovered Patients: `CALCULATE(COUNTROWS('Health Dataset'), FILTER('Health Dataset', Outcome = "Recovered"))`  
-
-These measures power interactive dashboards and real-time insights.
 
 ---
 
@@ -95,5 +89,4 @@ A multi-page interactive dashboard was developed with four key pages:
 Power BI, DAX, Data Cleaning, Star Schema Modeling, AI Visuals (Decomposition Tree, Key Influencers, Smart Narrative, Q&A), Interactive Dashboards, Data Storytelling, SQL, SSMS, SSAS, SSIS  
 
 ---
-
-This project demonstrates the full end-to-end process of transforming raw data into a scalable, decision-driven Business Intelligence solution — a capability highly transferable across industries.
+This project demonstrates the full end-to-end process of transforming raw data into a scalable, decision-driven Business Intelligence solution, a capability highly transferable across industries.
