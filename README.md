@@ -1,4 +1,6 @@
 # **Patients Outcome Analysis: Strategic Healthcare Business Intelligence**
+<img width="381" height="212" alt="17753054587391790152736044924001" src="https://github.com/user-attachments/assets/b79ae8da-faa0-4b82-b3ee-4e4602e0f614" />
+
 
 This repository features a comprehensive end-to-end data analysis project that transforms **10,000 patient records** into a multi-page interactive **Power BI dashboard**. The project focuses on evaluating **$5.003 billion in total treatment costs** to uncover departmental efficiencies, regional cost drivers, and patient outcome patterns.
 
