@@ -16,8 +16,8 @@ The raw dataset consisted of **10,000 rows** of hospital transactional data. Usi
 
 ## **Data Modeling**
 I implemented an **optimized star schema** to support high-performance reporting and dynamic cross-filtering:
-*   **Fact Table:** Contains transactional records including PatientID, Treatment Cost, Outcome, and Visit Date [1, 2].
-*   **Dimension Tables:** Created separate dimensions for **Hospital Branch, Department, and Payment Type** for granular filtering [2, 3].
+*   **Fact Table:** Contains transactional records including PatientID, Treatment Cost, Outcome, and Visit Date.
+*   **Dimension Tables:** Created separate dimensions for **Hospital Branch, Department, and Payment Type** for granular filtering.
 *   **Relationships:** Established one-to-many relationships between dimension and fact tables, allowing for seamless drill-down capabilities.
 
 ---
@@ -25,7 +25,7 @@ I implemented an **optimized star schema** to support high-performance reporting
 ## **DAX Measures**
 To power the dashboard's interactive elements and KPIs, I developed several custom DAX measures:
 *   **Total Patients:** `COUNTROWS('PatientData')` — Used to track the total volume of 10,000 patients.
-*   **Total Treatment Cost:** `SUM('PatientData'[Treatment Cost])` — Aggregated to show the **$5.003 Billion** total expenditure [2].
+*   **Total Treatment Cost:** `SUM('PatientData'[Treatment Cost])` — Aggregated to show the **$5.003 Billion** total expenditure.
 *   **Average Treatment Cost:** `AVERAGE('PatientData'[Treatment Cost])` — Reveals the **$514.7K** average per patient.
 *   **Referral Count:** `CALCULATE(COUNTROWS('PatientData'), 'PatientData'[Outcome] = "Referred")` — Used to identify the 684 referrals in **Pediatrics** and other departments.
 
@@ -62,7 +62,7 @@ The report is structured into four strategic pages, each utilizing specialized v
 ---
 
 ## **Actionable Recommendations**
-*   **Reduce Revenue Leakage:** Investigate why **~34% of patients** are being referred out of high-volume departments like **Pediatrics and Cardiology**. Investing in specialized equipment could keep these patients—and their revenue—in-house [2].
+*   **Reduce Revenue Leakage:** Investigate why **~34% of patients** are being referred out of high-volume departments like **Pediatrics and Cardiology**. Investing in specialized equipment could keep these patients—and their revenue—in-house.
 *   **Audit Branch Expenditures:** Conduct an operational audit of the **Ibadan branch** to align its cost-to-patient ratio with more volume-efficient branches like **Abuja** or **Kano**.
 *   **Scale Neurology’s Protocols:** Analyze treatment protocols in **Neurology** to determine if their cost-saving measures can be applied to higher-cost departments like **Cardiology ($993M trend)**.
 
