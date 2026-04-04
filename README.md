@@ -54,6 +54,8 @@ The report is structured into four strategic pages, each utilizing specialized v
 *   **Key Influencers (AI Visual):** Identifies that when the **Department is Neurology**, the average treatment cost **decreases by $1.74 Million**.
 
 ### **4. Trends & Timeline**
+<img width="382" height="213" alt="17752929976395004748432863144567" src="https://github.com/user-attachments/assets/64243c28-9ef7-4f80-8d81-867539496407" />
+
 *   **Line Charts:** Track the **Treatment Cost Trend** and **Patient Count Trend** over time, allowing for the identification of seasonal surges.
 *   **Q&A Natural Language Visual:** Allows users to query the data directly, revealing a **$993,090,657** trend for the **Cardiology** department.
 
