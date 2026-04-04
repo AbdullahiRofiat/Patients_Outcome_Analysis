@@ -35,6 +35,8 @@ To power the dashboard's interactive elements and KPIs, I developed several cust
 The report is structured into four strategic pages, each utilizing specialized visuals to communicate complex data:
 
 ### **1. Hospital Performance**
+<img width="381" height="212" alt="17752928731096022549552494438090" src="https://github.com/user-attachments/assets/ec1c57c3-322a-4ed3-9494-631c1afb02de" />
+
 *   **KPI Cards:** Displaying high-level executive metrics like **Total Patients**, **Average Treatment Cost ($514.7K)**, and **Total Treatment Cost**.
 *   **Donut Chart:** Visualizes **Payment Type Count**, revealing a balanced split: **Insurance (34.03%)**, **Cash (33.2%)**, and **HMO (32.77%)**.
 
