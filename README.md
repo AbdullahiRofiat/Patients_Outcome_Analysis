@@ -39,6 +39,8 @@ The report is structured into four strategic pages, each utilizing specialized v
 *   **Donut Chart:** Visualizes **Payment Type Count**, revealing a balanced split: **Insurance (34.03%)**, **Cash (33.2%)**, and **HMO (32.77%)**.
 
 ### **2. Cost & Department Analysis**
+<img width="379" height="212" alt="17752927921338067629391820501281" src="https://github.com/user-attachments/assets/02b1e407-304a-4c8f-a049-dd7904491496" />
+
 *   **Decomposition Tree (AI Visual):** Breaks down the **$5.003 Billion total cost** by Payment Type, Department (e.g., **General Medicine** at $350M), and Branch.
 *   **Clustered Bar Chart:** Ranks departments by volume, identifying **Pediatrics** as the largest (2,019 patients).
 *   **Stacked Bar Chart:** Displays the outcome distribution per department, highlighting the split between **Ongoing, Recovered, and Referred**.
