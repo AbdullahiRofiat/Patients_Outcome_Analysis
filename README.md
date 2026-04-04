@@ -48,6 +48,8 @@ The report is structured into four strategic pages, each utilizing specialized v
 *   **Stacked Bar Chart:** Displays the outcome distribution per department, highlighting the split between **Ongoing, Recovered, and Referred**.
 
 ### **3. Branch & Payment Analysis**
+<img width="380" height="212" alt="17752929466679020695994480797238" src="https://github.com/user-attachments/assets/ea327fd9-703f-4992-927b-ac7df3a7811a" />
+
 *   **Branch Column Charts:** Compares **Patient Count** (led by **Abuja**) against **Treatment Cost** (led by **Ibadan**).
 *   **Key Influencers (AI Visual):** Identifies that when the **Department is Neurology**, the average treatment cost **decreases by $1.74 Million**.
 
