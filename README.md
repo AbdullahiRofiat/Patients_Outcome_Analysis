@@ -84,3 +84,5 @@ The report is structured into four strategic pages, each utilizing specialized v
 *   **Analytics:** DAX (Data Analysis Expressions), Statistical Trend Analysis, AI-driven Insights
 *   **Modeling:** Star Schema Design, Relationship Management
 *   **Business Communication:** Strategic Recommendations, Data Storytelling
+
+Click the link below to access the full project: Rofiat Project Cleaning and Report.pbix
