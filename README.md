@@ -85,4 +85,4 @@ The report is structured into four strategic pages, each utilizing specialized v
 *   **Modeling:** Star Schema Design, Relationship Management
 *   **Business Communication:** Strategic Recommendations, Data Storytelling
 
-Click the link below to access the full project: Rofiat Project Cleaning and Report.pbix
+Click the link below to access the full project:https://github.com/AbdullahiRofiat/Patients_Outcome_Analysis/blob/f2e33b43124151bf0563ff30c032615d741ccb80/Rofiat%20Project%20Cleaning%20and%20Report.pbix
